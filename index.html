@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio Jhoan Hurtado</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Controles superiores -->
+    <div class="controls">
+        <button id="themeToggle" class="control-btn" aria-label="Cambiar tema">
+            <span class="icon">🌙</span>
+        </button>
+        <button id="langToggle" class="control-btn" aria-label="Cambiar idioma">
+            <span class="lang-text">EN</span>
+        </button>
+    </div>
+
+    <!-- Contenedor principal del Bento Box -->
+    <div class="container">
+        <!-- Vista Principal -->
+        <div id="mainView" class="bento-grid">
+            <!-- Actualizado hero con imagen de perfil sin fondo -->
+            <div class="bento-item hero">
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <h1 class="name" data-es="Jhoan Hurtado" data-en="Jhoan Hurtado">Jhoan Hurtado</h1>
+                        <p class="title" data-es="Desarrollador Junior" data-en="Junior Developer">Desarrollador Junior</p>
+                        <p class="description" data-es="Apasionado por crear soluciones web innovadoras. Me encanta transformar ideas en productos funcionales utilizando las últimas tecnologías." data-en="Passionate about creating innovative web solutions. I love transforming ideas into functional products using the latest technologies.">Apasionado por crear soluciones web innovadoras. Me encanta transformar ideas en productos funcionales utilizando las últimas tecnologías.</p>
+                    </div>
+                    <div class="hero-image">
+                        <img src="public/images/unnamed-removebg-preview.png" alt="Jhoan Hurtado Profile">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sobre mí -->
+            <div class="bento-item about">
+                <h2 data-es="Sobre Mí" data-en="About Me">Sobre Mí</h2>
+                <p data-es="Desarrollador web junior con experiencia en la creación de aplicaciones modernas y páginas corporativas. Enfocado en el aprendizaje continuo y la mejora de habilidades técnicas." data-en="Junior web developer with experience in creating modern applications and corporate websites. Focused on continuous learning and improving technical skills.">Desarrollador web junior con experiencia en la creación de aplicaciones modernas y páginas corporativas. Enfocado en el aprendizaje continuo y la mejora de habilidades técnicas.</p>
+            </div>
+
+            <!-- Habilidades -->
+            <div class="bento-item skills">
+                <h2 data-es="Habilidades" data-en="Skills">Habilidades</h2>
+                <div class="skills-list">
+                    <span class="skill-tag">JavaScript</span>
+                    <span class="skill-tag">React</span>
+                    <span class="skill-tag">Node.js</span>
+                    <span class="skill-tag">CSS</span>
+                    <span class="skill-tag">Python</span>
+                </div>
+            </div>
+
+            <!-- Proyectos (Botón) -->
+            <div class="bento-item projects-btn" id="projectsBtn">
+                <h2 data-es="Proyectos" data-en="Projects">Proyectos</h2>
+                <p data-es="Ver mi trabajo" data-en="View my work">Ver mi trabajo</p>
+                <span class="arrow">→</span>
+            </div>
+
+            <!-- Contacto -->
+            <div class="bento-item contact">
+                <h2 data-es="Contacto" data-en="Contact">Contacto</h2>
+                <div class="contact-links">
+                    <a href="mailto:email@example.com">📧 Email</a>
+                    <a href="https://github.com" target="_blank">💻 GitHub</a>
+                    <a href="https://linkedin.com" target="_blank">💼 LinkedIn</a>
+                </div>
+            </div>
+
+            <!-- Experiencia -->
+            <div class="bento-item experience">
+                <h2 data-es="Experiencia" data-en="Experience">Experiencia</h2>
+                <div class="experience-grid">
+                    <div class="exp-card">
+                        <div class="exp-year">2025</div>
+                        <h3>Sistema ERP</h3>
+                        <p class="exp-company">Fundocol</p>
+                        <p class="exp-description" data-es="Desarrollo de un sistema ERP completo para la gestión integral de recursos empresariales y procesos administrativos." data-en="Development of a complete ERP system for comprehensive management of business resources and administrative processes.">Desarrollo de un sistema ERP completo para la gestión integral de recursos empresariales y procesos administrativos.</p>
+                        <span class="exp-status in-progress" data-es="En proceso" data-en="In progress">En proceso</span>
+                    </div>
+
+                    <div class="exp-card">
+                        <div class="exp-year">2025</div>
+                        <h3>App Web Akademia</h3>
+                        <p class="exp-company">Akademia</p>
+                        <p class="exp-description" data-es="Creación de aplicación Movil para la realizacion de actividades de su programa de liderazgo." data-en="Web application creation for educational platform with course and student management.">Creación de aplicación web para plataforma educativa con gestión de cursos y estudiantes.</p>
+                        <span class="exp-status in-progress" data-es="En proceso" data-en="In progress">En proceso</span>
+                    </div>
+
+                    <div class="exp-card">
+                        <div class="exp-year">2024</div>
+                        <h3>Diseño de Sonrisa</h3>
+                        <p class="exp-company">Artec Solution</p>
+                        <p class="exp-description" data-es="Desarrollo completo de página web especializada en servicios de diseño de sonrisa y odontología estética." data-en="Complete development of webpage specialized in smile design services and aesthetic dentistry.">Desarrollo completo de página web especializada en servicios de diseño de sonrisa y odontología estética.</p>
+                        <span class="exp-status completed" data-es="Finalizada" data-en="Completed">Finalizada</span>
+                    </div>
+
+                    <div class="exp-card">
+                        <div class="exp-year">2023 - 2024</div>
+                        <h3>Web Corporativa</h3>
+                        <p class="exp-company">Fundocol</p>
+                        <p class="exp-description" data-es="Diseño y desarrollo de la página web institucional principal de la empresa con información corporativa y servicios." data-en="Design and development of the company's main institutional website with corporate information and services.">Diseño y desarrollo de la página web institucional principal de la empresa con información corporativa y servicios.</p>
+                        <span class="exp-status in-progress" data-es="En proceso" data-en="In progress">En proceso</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Vista de Proyectos -->
+        <div id="projectsView" class="bento-grid hidden">
+            <!-- Botón Volver -->
+            <div class="bento-item back-btn" id="backBtn">
+                <span class="arrow">←</span>
+                <h2 data-es="Volver" data-en="Back">Volver</h2>
+            </div>
+
+            <!-- Proyecto 1 -->
+            <a href="https://jhoanhu.github.io/PokeWorld/" target="_blank" class="bento-item project-card project-link">
+                <div class="project-image" style="background: linear-gradient(135deg, #ffcb05 0%, #c5050c 100%);">
+                    <span class="project-icon">⚡</span>
+                </div>
+                <h3>POKEWORLD</h3>
+                <p data-es="Página inspirada en Pokémon con información de pokemones y sus características" data-en="Pokémon-inspired page with pokemon information and characteristics">Página inspirada en Pokémon con información de pokemones y sus características</p>
+                <div class="project-tags">
+                    <span>React</span>
+                    <span>API</span>
+                </div>
+            </a>
+
+            <!-- Proyecto 2 -->
+            <a href="https://finanzas-app-sage.vercel.app/" target="_blank" class="bento-item project-card project-link">
+                <div class="project-image" style="background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%);">
+                    <span class="project-icon">💰</span>
+                </div>
+                <h3>FINANZASAPP</h3>
+                <p data-es="Aplicación para registrar y gestionar tus gastos mensuales de forma sencilla" data-en="Application to record and manage your monthly expenses easily">Aplicación para registrar y gestionar tus gastos mensuales de forma sencilla</p>
+                <div class="project-tags">
+                    <span>JavaScript</span>
+                    <span>LocalStorage</span>
+                </div>
+            </a>
+
+            <!-- Proyecto 3 -->
+            <a href="https://citas-motivacionales.vercel.app/" target="_blank" class="bento-item project-card project-link">
+                <div class="project-image" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);">
+                    <span class="project-icon">💭</span>
+                </div>
+                <h3>CITAS MOTIVACIONALES</h3>
+                <p data-es="Generador de citas motivacionales al azar para inspirarte cada día" data-en="Random motivational quotes generator to inspire you every day">Generador de citas motivacionales al azar para inspirarte cada día</p>
+                <div class="project-tags">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                </div>
+            </a>
+
+
+            <!-- Proyecto 5 -->
+            <a href="https://cube-pag8.vercel.app/" target="_blank" class="bento-item project-card project-link">
+                <div class="project-image" style="background: linear-gradient(135deg, #30cfd0 0%, #330867 100%);">
+                    <span class="project-icon">🔐</span>
+                </div>
+                <h3>KEYGUARD</h3>
+                <p data-es="Aplicación segura para guardar y gestionar tus contraseñas de forma encriptada" data-en="Secure application to store and manage your passwords in an encrypted way">Aplicación segura para guardar y gestionar tus contraseñas de forma encriptada</p>
+                <div class="project-tags">
+                    <span>JavaScript</span>
+                    <span>Encryption</span>
+                </div>
+            </a>
+
+            <!-- Proyecto 6 -->
+            <a href="https://jhoanhu.github.io/KeyMaker/" target="_blank" class="bento-item project-card project-link">
+                <div class="project-image" style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);">
+                    <span class="project-icon">🔑</span>
+                </div>
+                <h3>KEYMAKER</h3>
+                <p data-es="Generador de contraseñas seguras y aleatorias con opciones personalizables" data-en="Secure and random password generator with customizable options">Generador de contraseñas seguras y aleatorias con opciones personalizables</p>
+                <div class="project-tags">
+                    <span>JavaScript</span>
+                    <span>Crypto</span>
+                </div>
+            </a>
+
+            <!-- Proyecto 7 -->
+            <a href="https://fundocol.org/" target="_blank" class="bento-item project-card project-link">
+                <div class="project-image" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);">
+                    <span class="project-icon">🏢</span>
+                </div>
+                <h3>PÁGINA DE FUNDOCOL</h3>
+                <p data-es="Sitio web institucional principal de la empresa FUNDOCOL" data-en="Main institutional website of FUNDOCOL company">Sitio web institucional principal de la empresa FUNDOCOL</p>
+                <div class="project-tags">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                </div>
+            </a>
+
+            <!-- Proyecto 8 -->
+            <a href="https://artec-solution.com" target="_blank" class="bento-item project-card project-link">
+                <div class="project-image" style="background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);">
+                    <span class="project-icon">😁</span>
+                </div>
+                <h3>ARTEC SOLUTION</h3>
+                <p data-es="Página especializada en diseños de sonrisa y servicios dentales profesionales" data-en="Page specialized in smile designs and professional dental services">Página especializada en diseños de sonrisa y servicios dentales profesionales</p>
+                <div class="project-tags">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
